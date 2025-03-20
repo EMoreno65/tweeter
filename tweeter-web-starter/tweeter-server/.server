@@ -1,0 +1,9 @@
+BUCKET='milestone3bucketethan'
+LAMBDA_ROLE='arn:aws:iam::588738592161:role/EthanMilestone3Role'
+EDIT_LAMBDALIST='
+tweeterGetFollowees | lambda/follow/GetFolloweesLambda.handler
+tweeterGetFollowers | lambda/follow/GetFollowersLambda.handler
+tweeterGetFeed | lambda/status/GetFeedLambda.handler
+tweeterGetStory | lambda/status/GetStoryLambda.handler
+'
+LAMBDALAYER_ARN='arn:aws:lambda:us-east-1:588738592161:layer:ethanmilestone3layer:8'
